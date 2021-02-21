@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.full-body{
+    background-color: blanchedalmond;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.nav{
+    flex: 1;
+    text-align: right;
+}
+.nav ul{
+    display: inline-block;
+    list-style: none;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+a{
+    text-decoration: none;
+    color: #714c8f;
+    font-weight: 800;
+}
+p{
+    font-weight: 500;
+    color: #714c8f;  
+}
+.row{
+    display: flex;
+    place-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sec-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.sec-2 img{
+    max-width: 100%;
+    padding: 0 20px;
+}
+.sec-2 h1{
+    font-size: 60px;
+    line-height: 60px;
+    margin:20px 0;
+    color: #755292;
+}
+.sec-2 p{
+    margin:30px 0;
+    font-size: 20px;
+}
+.btn{
+    display: inline-block;
+    background: #714c8f;
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+.btn:hover{
+    background: #593c70;
+}
+.cat-img{
+    flex-basis: 25%;
+    min-width: 250px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.cat-img img{
+    width: 100%;
+    /* border-radius: 15px; */
+}
+.categories{
+    margin: 0;
+    padding: 0 30px;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.pro-img{
+    flex-basis: 25%;
+    padding: 20px;
+    margin: 10px 0px;
+    transform: 0.10s ;
+}
+.pro-img:hover{
+    transform: translateY(-5px);
+}
+.pro-img img{
+    width: 100%;
+}
+h1{
+    color: #714c8f;
+}
+h2{
+    color: #714c8f;
+}
+.title{
+    color: #555;
+    text-align: center;
+    margin: 0 auto 80px;
+    margin-left: 70%;
+    position: relative;
+}
+.title::after{
+    content: " ";
+    background: chocolate;
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+    position: absolute;
+    /* transform: translateX(-50);
+    left: 20%;
+    margin-top: 5px; */
+}
